@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+}
+
+/*navigation*/
+
+.mainnav ul {
+	list-style: none;
+}
+
+.mainnav ul li ul li {
+	width: 100%;
+}
+
+.mainnav a {
+	text-decoration:none; 
+	width: auto;
+	color: white;
+}
+
+.mainnav li {
+	float: left;
+	width: 20%;
+	height: 40px;
+	background-color: #00541a;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+}
+
+.mainnav li a {
+	text-decoration:none; 
+	display: block;
+}
+
+.mainnav li ul {
+	display: none;
+	background-color: white;
+}
+
+
+.mainnav li a:hover {
+	background: #fef9d9;
+	color: black;
+	font-weight: bold; 
+}
+
+.mainnav li:hover ul{
+	display: block;
+	position: relative;
+	z-index: 1000;
+	font-weight: bold; 
+}
+
+.title h1 {
+	background-color: #935900;
+	text-align: center;
+	color: white;
+}
+
+.address {
+	margin-left: 60%;
+	margin-right: 10%;
+	margin-top: 4%;
+	
+}
+
+.address h2{
+	position: relative;
+	right: 200px;
+	font-weight: bold; 
+	color: green;
+	font-size: 30px;
+}
+
+.address p{
+	position: relative;
+	top: 50px;
+	right: 50px;
+	text-align: center;
+	font-weight: bold; 
+	font-size: 20px;
+}
+
+.form-style-1 {
+	position: absolute;
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	right: 55%;
+	top: 10%;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=number],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], 
+.form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, 
+.form-style-1 input[type=button]:hover{
+	background: #4691A4;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+/*footer*/
+.footer {
+    position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #00541a;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	padding: 40px;
+}
+

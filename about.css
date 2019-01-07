@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+	box-sizing: border-box;
+}
+
+/*navigation*/
+
+.mainnav ul {
+	list-style: none;
+}
+
+.mainnav ul li ul li {
+	width: 100%;
+}
+
+.mainnav a {
+	text-decoration:none; 
+	width: auto;
+	color: white;
+}
+
+.mainnav li {
+	float: left;
+	width: 20%;
+	height: 40px;
+	background-color: #00541a;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+}
+
+.mainnav li a {
+	text-decoration:none; 
+	display: block;
+}
+
+.mainnav li ul {
+	display: none;
+	background-color: white;
+}
+
+
+.mainnav li a:hover {
+	background: #fef9d9;
+	color: black;
+	font-weight: bold; 
+}
+
+.mainnav li:hover ul{
+	display: block;
+	position: relative;
+	z-index: 1000;
+	font-weight: bold; 
+}
+
+.title h1 {
+	background-color: #935900;
+	text-align: center;
+	color: white;
+}
+
+/*about1*/
+
+#nogapic {
+	float: left;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.about1 {
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-left: 100px;
+	background-color: #fef9d9;
+	line-height: 1.6;
+}
+
+/*about2*/
+.about2 {
+	text-align:center;
+	margin-top: 15%;
+	line-height: 1.6;
+	background-color: #fef9d9;
+
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 80%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*footer*/
+.footer {
+	background-color: #00541a;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	padding: 40px;
+}

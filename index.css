@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+	box-sizing: border-box;
+}
+
+/*navigation*/
+
+.mainnav ul {
+	list-style: none;
+}
+
+.mainnav ul li ul li {
+	width: 100%;
+}
+
+.mainnav a {
+	text-decoration:none; 
+	width: auto;
+	color: white;
+}
+
+.mainnav li {
+	float: left;
+	width: 20%;
+	height: 40px;
+	background-color: #00541a;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+}
+
+.mainnav li a {
+	text-decoration:none; 
+	display: block;
+}
+
+.mainnav li ul {
+	display: none;
+}
+
+
+.mainnav li a:hover {
+	background: #fef9d9;
+	color: black;
+	font-weight: bold; 
+}
+
+.mainnav li:hover ul{
+	display: block;
+	position: relative;
+	z-index: 1000;
+	font-weight: bold; 
+}
+
+.logo img {
+	box-shadow: 8px inset;
+	width: 100%;
+}
+
+/*aboutnoga*/
+
+.aboutnoga h1 {
+	text-align: center;
+}
+
+.aboutnoga h2 {
+	text-align: center;
+	color: #00541a;
+}
+
+.aboutnoga p {
+	text-align: center;
+	margin-left: 20px;
+	line-height: 1.6;
+}
+
+/*aboutpictures*/
+
+.aboutpictures {	
+	margin-top: 20px;
+	border: 6px #935900;
+	border-style: solid none;
+	/*background: green;*/
+}
+
+.aboutpictures h1{
+		text-align: right;
+		color: black;
+		margin-right: 3%;
+}
+
+.aboutpictures h2 {
+	margin-bottom: 20px;
+	text-align: center;
+	color: green;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.aboutpictures::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.aboutpictures img {	
+	margin: auto;
+	border-radius: 10%;
+	margin-left: 5%;
+	transition: transform 1s;
+}
+
+.aboutpictures img:hover {
+  transform: scale(1.2);
+}
+
+/*thanks*/
+
+.thanks {
+	width = "400px";
+}
+
+.thanks h2 {
+	margin-bottom: 20px;
+	text-align: center;
+	color: green;
+}
+
+.thanks img {
+	margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+	border-radius: 10%;
+	height: 300px;
+
+}
+
+/*footer*/
+.footer {
+	background-color: #00541a;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
